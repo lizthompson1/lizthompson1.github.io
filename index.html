@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
 	<style>
 	* {
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 		background-color: gray;
 	}
 	h1 {color: gray;
@@ -11,9 +12,11 @@
 		font-family: american typewriter;
 		width: 500px;
 		height:100px;
-		padding:20px;
-		margin: 50px;
-		background-color:yellow;
+		padding-top:60px;
+		padding-bottom: 10px;
+		/*margin: 50px;*/
+		background-color:#00cca0;
+
 	}
 	div {color: white;
 		margin:20px;
@@ -22,39 +25,66 @@
 		background-color:gray;
 		margin:5px;
 	}
-	img
-	.bio{
+	.bio{ width:300px;
+		margin-left:auto;
+		margin-right:auto;
 		color:black;
+		padding:2px;
+
 	}
-	.social{background-color:yellow;
+	.social{background-color:#00cca0;
 			width:500px;
 			height:250px;
+	}
+	.minititle{padding-left: 20px;
+	}
+
+	.image-container{display:inline-block;
+	}
+	.everything {text-align:center;
+	}
+	.top{margin-left:auto;
+		margin-right:auto
+		;
+	}
+	.footer {
+		border: 1px solid black;
 	}
 	</style>
 	
 </head>
 <body>
-<h1>a bold byte</h1>
-
-
 <div>
-	<p class="bio">Liz is the name, food is my game. I have fake red hair. So what! </p>
+	<h1 class="top">a bold byte</h1>
+</div>	
+<p class="bio">I'm a gal from Kansas. Yeehaw!</p>
+
+<div class="everything">
+
+
+<div class="image-container">
+	<p class="minititle">Liz is the name, food is my game. </p>
 	<a href="http://www.aboldbyte.com/about/">
 	<img src="https://scontent-ord.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/14078_10205348286245357_2334119546168832359_n.jpg?oh=2f89b619c22828bb5a56866535815de7&oe=557B7C9A" alt=profile-pic width="300px"></a>
 </div>
 
-<div>
-	<p>I once ate a Turkey Leg. See! I did!</p>
+<div class="image-container">
+	<p class="minititle">I once ate a Turkey Leg. See! I did!</p>
 	<a href="http://www.aboldbyte.com/on-the-fork/2014/8/first-turkey-leg">
 	<img src="http://static1.squarespace.com/static/52d5d37ee4b030d3909723dd/t/53e0199ce4b04e785fd64c95/1407195581185/image.jpg?format=750w" alt="turkey-leg" width="300px"></a>
 </div>
 
-<div>
-	<p>St. Vincent ROCKS. I played her guitar once.</p>
+<div class="image-container">
+	<p class="minititle">St. Vincent ROCKS. I played her guitar once.</p>
 	<a href="http://www.aboldbyte.com/records-spinning/">
 	<img src="http://media.salon.com/2014/02/st_vincent.jpg" alt="st-vincent" width="300px"></a>
 </div>
-<div class="social">
+
+<div class="footer">
+<h2>Wanna be friends?</h2>
+<p>Email at me <a href="mailto:lizthompson15@gmail.com">lizthompson15@gmail.com</a></p>
+</div>
+
 </div>
 
 </body>
